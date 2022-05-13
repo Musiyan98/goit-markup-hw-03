@@ -1,0 +1,230 @@
+:root {
+   --dark-background: #2F303A;
+   --main-text-theme-accent: #212121;
+   --main-text-theme-paragraph: #757575;
+   --white-theme: #FFFFFF;
+   --white-theme-liquid: rgba(255, 255, 255, 0.6);
+   --hiperlink-and-active-theme: #2196F3;
+   --filter-button-color: #F5F4FA;
+   
+
+   
+   
+}
+
+body{
+font-family: 'Raleway', sans-serif;
+font-family: 'Roboto', sans-serif; 
+color: var(--main-text-theme-accent);
+} 
+
+.list {
+   list-style: none;
+}
+
+.header {
+   display: inline-flex;
+   justify-content: space-between;
+   max-width: 1170px;
+   
+}
+
+.logo {
+   font-family: 'Raleway';
+   font-weight: 700;
+   font-size: 26px;
+   line-height: 1.19;
+   letter-spacing: 0.03em;
+   margin: 25px 0;
+   color: var(--hiperlink-and-active-theme)
+}
+
+.logo-studio-header {
+   color: #000;
+}
+
+.header {
+   text-decoration: none;
+   color: var(--main-text-theme-accent);
+}
+.logo,
+.header-link {
+   text-decoration: none;
+}
+
+.header .list {
+   display: flex;
+   list-style: none;
+}
+.nav .list-item,
+.header-contacts .list-item {
+   margin: 32px 0 32px 50px;
+}
+
+.nav .header-link {
+   font-weight: 500;
+   font-size: 14px;
+   line-height: 1.14;
+   letter-spacing: 0.02em;
+   color: currentColor;
+}
+
+.header-contacts .header-link {
+   font-weight: 500;
+   font-size: 14px;
+   line-height: 1.14;
+   color: var(--main-text-theme-paragraph)
+}
+
+.nav .header-link:hover,
+.nav .header-link:focus,
+.header-contacts .header-link:hover,
+.header-contacts .header-link:focus,
+.footer-contacts-info:hover,
+.footer-contacts-info:focus {
+   color: var(--hiperlink-and-active-theme)
+}
+
+.heroic-page {
+   background-color: var(--dark-background);
+}
+
+.heroic-title {
+   font-weight: 900;
+   font-size: 44px;
+   line-height: 1.36;
+   text-align: center;
+   letter-spacing: 0.06em;
+   text-transform: uppercase;
+   
+   color: var(--white-theme);
+}
+
+.heroic-btn {
+   font-weight: 700;
+   font-size: 16px;
+   line-height: 1.88;
+   letter-spacing: 0.06em;
+   color: var(--white-theme);
+   background-color: var(--hiperlink-and-active-theme);
+   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+   border-radius: 4px;
+}
+
+.about-company .list {
+   display: flex;
+}
+
+.about-company-subtitle {
+   font-weight: 700;
+   font-size: 14px;
+   line-height: 1.14;
+   letter-spacing: 0.03em;
+   text-transform: uppercase;
+}
+
+.about-company-text {
+   font-size: 14px;
+   line-height: 1.71;
+   letter-spacing: 0.03em;
+   color: var(--main-text-theme-paragraph);
+}
+
+.project-section-title,
+.team-section-title {
+   font-weight: 700;
+   font-size: 36px;
+   line-height: 1.17;
+   text-align: center;
+   letter-spacing: 0.03em;
+}
+
+.project-section > .list,
+.team-section > .list {
+   display: flex;
+}
+
+
+.team-section_employee {
+font-weight: 500;
+font-size: 16px;
+line-height: 1.19;
+text-align: center;
+letter-spacing: 0.03em;
+}
+
+.team-section_position {
+font-size: 16px;
+line-height: 1.19;
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--main-text-theme-paragraph);
+}
+
+.footer-section {
+   background-color: var(--dark-background);
+}
+
+.logo-studio-footer {
+   color: var(--white-theme);
+}
+
+.footer-contacts-info {
+   text-decoration: none;
+   font-size: 14px;
+   line-height: 1.71;
+   letter-spacing: 0.03em;
+   color: var(--white-theme-liquid);
+}
+
+.footer-contacts-info.address {
+   font-style: normal;
+   color: var(--white-theme);
+}
+
+
+
+
+.filter-btn {
+   font-family: 'Roboto',    sans-serif;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 1.63;
+   text-align: center;
+   letter-spacing: 0.03em;
+   color: currentColor;
+
+   background-color: var(--filter-button-color);
+   border-radius: 4px;
+}
+
+.filter-btn:hover,
+.filter-btn:focus,
+.filter-btn.active {
+   color: var(--white-theme);
+   background-color: var(--hiperlink-and-active-theme);
+}
+
+.btn {
+   cursor: pointer;
+}
+
+.portfolio-project-card {
+   text-decoration: none;
+   color: currentColor;
+}
+
+.portfolio-project-subtitle {
+   font-weight: 700;
+   font-size: 18px;
+   line-height: 2;
+   letter-spacing: 0.06em;
+}
+
+.portfolio-project-text {
+font-size: 16px;
+line-height: 1.88;
+letter-spacing: 0.03em;
+color: var(--main-text-theme-paragraph);
+}
+

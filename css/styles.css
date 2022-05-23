@@ -395,5 +395,6 @@ color: var(--main-text-theme-paragraph);
 .portfolio-project-info {
    border: 1px solid #EEEEEE;
    border-top: none;
+   padding: 20px 24px;
 }
 

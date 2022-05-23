@@ -388,3 +388,12 @@ letter-spacing: 0.03em;
 color: var(--main-text-theme-paragraph);
 }
 
+.portfolio-project-foto {
+   display: block;
+}
+
+.portfolio-project-info {
+   border: 1px solid #EEEEEE;
+   border-top: none;
+}
+

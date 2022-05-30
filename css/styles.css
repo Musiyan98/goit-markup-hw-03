@@ -34,16 +34,20 @@ ul {
    padding: 0;
 }
 
-.content-section {
+.container {
    width: 1200px;
    margin: 0 auto;
    padding: 0 15px;
 }
 
 .header {
+   border-bottom: 1px solid #ECECEC;
+}
+
+.header > .container {
    display: flex;
    flex-direction: row;
-   border-bottom: 1px solid #ECECEC;
+   
 }
 
 .logo {
@@ -172,12 +176,12 @@ ul {
 
 }
 
-.main-content-parth {
+.section {
    padding-top: 94px;
    padding-bottom: 94px;
 }
 
-.about-company .main-content-parth {
+.about-company.section {
    padding-bottom: 0;
 }
 
